@@ -45,9 +45,9 @@ public class Wikifier {
 			WikiContentDTO contentVO = new WikiContentDTO();
 			contentVO.setSubject(subject);
 			contentVO.setRvs(rvs);
-			contentVO.setRvsRow(i - 1);
+			contentVO.setRvsRow(i);
 			contentVO.setPreRvs(rvs);
-			contentVO.setPreRvsRow(i - 1);
+			contentVO.setPreRvsRow(i);
 			contentVO.setContent(contentArray[i - 1]);
 			contents.add(contentVO);
 		}
