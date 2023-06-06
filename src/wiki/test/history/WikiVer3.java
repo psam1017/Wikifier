@@ -11,7 +11,7 @@ public class WikiVer3 {
 	public static void main(String[] args) {
 		
 		// Version 3 : 여러 버전을 고려한 설계. 내가 찾는 버전과 그 이전 버전으로 리스트를 구분하여 비교. 그에 따라 반복횟수도 약간 감소.
-		// 15회 비교 -> 10회 비교(최선의 경우 O(n), 최악의 경우 O(n^2) 실행).
+		// 15회 비교 -> 10회 비교(최선의 경우 O(n), 평균, 최악의 경우 O(n^2) 실행).
 		// 문제점 : 여러 버전을 고려한 기능 구현이 완료되었으니 선형 탐색이 아니라 이진 탐색 등 최적화 필요.
 		
 		List<WikiContentDTO> list1 = new LinkedList<>();

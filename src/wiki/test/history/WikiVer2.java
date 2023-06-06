@@ -9,7 +9,7 @@ public class WikiVer2 {
 	public static void main(String[] args) {
 		
 		// Version 2 : LinkedList를 사용하고, 찾은 내용을 없애면서 비교 대상 개수를 줄여나가기.
-		// 25회 비교 -> 15회 비교(최선의 경우 O(n), 최악의 경우 O(n^2)).
+		// 25회 비교 -> 15회 비교(최선의 경우 O(n), 평균, 최악의 경우 O(n^2)).
 		// 문제점 : 여러 버전을 비교하는 것을 고려하지 않음. 좀 더 효율적인 탐색이 필요함. -> 일단 여러 버전 기능 구현부터.
 		
 		int rvs = 2;
